@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Resful Test</title>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+     <div id="container">
+          <div id="open">
+               <h1>The RESTFUL API Quiz</h1>
+               <p>To become an expert, you have to practice. Use this quiz to test your knowledge about REST API creation.</p>
+               <h2 class="btn" id="startquiz">Take The Quiz</h2>
+          </div>
+          <div id="quiz" class="hide">
+               <div class="intro">
+                    <div id="questions">
+                         <p class="prefix">Question:</p>
+                         <h2 id="counter">1/10</h2>
+                    </div>
+                    <div id="timer">
+                         <p class="prefix">Timer:</p>
+                         <h2 id="countdown">60 seconds remaining</h2>
+                    </div>
+                    <div id="correct">
+                         <p class="prefix">Score</p>
+                         <h2 id="score">0</h2>
+                    </div>
+               </div>
+
+               <div class="questions">
+                    <div id="question">Web API supports which of the following request/response data formats by default?</div>
+               </div>
+
+               <div class="answers">
+                    <div class="answer">
+                         <p class="answer-prefix">A</p>
+                         <p class="answer-text" data-answer="a">Answer A</p>
+                    </div>
+               </div>
+
+               <div class="answers">
+                    <div class="answer">
+                         <p class="answer-prefix">B</p>
+                         <p class="answer-text" data-answer="b">Answer B</p>
+                    </div>
+               </div>
+
+               <div class="answers">
+                    <div class="answer">
+                         <p class="answer-prefix">C</p>
+                         <p class="answer-text" data-answer="c">Answer C</p>
+                    </div>
+               </div>
+
+               <div class="answers">
+                    <div class="answer">
+                         <p class="answer-prefix">A</p>
+                         <p class="answer-text" data-answer="d">Answer D</p>
+                    </div>
+               </div>
+          </div>
+          <div id="results" class="hide">
+               <h1>Game Ended</h1>
+               <div id="resultscore">5 points</div>
+               <label name="scoreboard">
+                    Enter your initials: 
+                    <input type="text" id="initials" name="initials" />
+               </label>
+               <div class="btn" id="submitPlayer">Submit</div>
+
+               <div id="highscore" class="highscores"></div>
+               <div id="play" class="btn">Play Again</div>
+          </div>
+     </div>
+     <script src="./js/script.js"></script>
+</body>
+</html>
