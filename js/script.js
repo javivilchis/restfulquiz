@@ -131,7 +131,7 @@ function init(){
 function startGame(){
      questionCounter = 0;
      score = 0;
-     yourtime = 2;
+     yourtime = 60;
      acceptingAnswers = true;
      availableQuestions = getRandomQuestions(questionaire, max_questions);
 
