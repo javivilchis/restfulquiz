@@ -105,6 +105,7 @@ var resultScore = document.getElementById("resultscore");
 var replay = document.getElementById("play");
 var initials = document.getElementById('initials');
 var submitPlayer = document.getElementById("submitPlayer");
+var version = document.getElementsByClassName("version");
 
 var questionCounter;
 var score;
@@ -287,3 +288,4 @@ if (lastPlayer !== null) {
      document.querySelector(".highscores").textContent = lastPlayer.player +  " scored: " + lastPlayer.score + " On: " + lastPlayer.date
 }
 }
+version.textContent(date);
