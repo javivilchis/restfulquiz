@@ -10,7 +10,7 @@ var questionaire = [
      },
      {
           id:2,
-          question: "Question 2: Web API supports which of the following request/response data formats by default?",
+          question: "Web API supports which of the following request/response data formats by default?",
           a: "JSON",
           b: "XML",
           c: "BSON",
@@ -19,7 +19,7 @@ var questionaire = [
      },
      {
           id:3,
-          question: "Question 3: Which of the following .NET framework supports Web API?",
+          question: "Which of the following .NET framework supports Web API?",
           a: ".NET 2.0",
           b: ".NET 3.0",
           c: ".NET 3.5",
@@ -28,7 +28,7 @@ var questionaire = [
      },
      {
           id: 4,
-          question: "Question 4: Which of the following statement is TRUE?",
+          question: "Which of the following statement is TRUE?",
           a: "Web API can be configured using web.config.",
           b: "Web API can only be configured by code.",
           c: "Web API can be configured using app.config.",
@@ -37,7 +37,7 @@ var questionaire = [
      },
      {
           id:5,
-          question: "Question 5: Web API uses which of the following open-source library for JSON serialization?",
+          question: "Web API uses which of the following open-source library for JSON serialization?",
           a: "Json.NET",
           b: "JsonFormatter.NET",
           c: "GetJson.NET",
@@ -46,7 +46,7 @@ var questionaire = [
      },
      {
           id:6,
-          question: "Question 6: Web API controller must be derived from the __________ class.",
+          question: "Web API controller must be derived from the __________ class.",
           a: "Controller",
           b: "ApiController",
           c: "WebApiController",
@@ -55,7 +55,7 @@ var questionaire = [
      },
      {
           id:7,
-          question: "Question 7: Which of the following types of routing is supported in Web API?",
+          question: "Which of the following types of routing is supported in Web API?",
           a: "Attribute Routing",
           b: "Convention-based Routing",
           c: "All of the above",
@@ -64,7 +64,7 @@ var questionaire = [
      },
      {
           id:8,
-          question: "Question 8: Which of the following types are valid response types of Web API action method?",
+          question: "Which of the following types are valid response types of Web API action method?",
           a: "HttpResponseMessage",
           b: "IHttpActionResult",
           c: "Custom types",
@@ -73,7 +73,7 @@ var questionaire = [
      },
      {
           id:9,
-          question: "Question 9: Which of the following action method names are valid to handle HTTP GET request?",
+          question: "Which of the following action method names are valid to handle HTTP GET request?",
           a: "Get()",
           b: "GetAllStudents()",
           c: "GetStudent()",
@@ -82,7 +82,7 @@ var questionaire = [
      },
      {
           id:10,
-          question: "Question 10: Web API sends which of the following status code on successful execution?",
+          question: "Web API sends which of the following status code on successful execution?",
           a: "200",
           b: "201",
           c: "500",
